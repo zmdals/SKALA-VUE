@@ -89,13 +89,14 @@ const router = createRouter({
               path: 'compare',
               component: () => import('@/views/assignments/weather-router/WeatherCompareView.vue'),
             },
-            {
-              path: ':pathMatch(.*)*',
-              component: () => import('@/views/assignments/weather-router/NotFoundView.vue'),
-            },
           ],
         },
       ],
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      component: () => import('@/views/assignments/weather-router/NotFoundView.vue'),
     },
   ],
 })
