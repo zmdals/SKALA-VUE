@@ -123,9 +123,7 @@ src/
 | 2 | Composition API | ref, computed, watch, watchEffect 적용, 메뉴 추천 기능 추가 |
 | 3 | Component 분리 | props/emits, slot 기반 컴포넌트 분리 (이후 단계에서 재사용) |
 | 4 | Vue Router | 중첩/동적 라우트, Catch-all, programmatic navigation |
-| 5 | Pinia + Axios + UI |   • configStore
-  • OpenWeatherMap/Open-Meteo API 연동
-  • PrimeVue + Tailwind |
+| 5 | Pinia + Axios + UI | configStore, OpenWeatherMap / Open-Meteo API 연동, PrimeVue + Tailwind |
 
 ---
 
