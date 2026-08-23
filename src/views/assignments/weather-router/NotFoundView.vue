@@ -16,7 +16,7 @@ const router = useRouter()
       <Button
         label="날씨 메인으로 이동"
         severity="info"
-        @click="router.push('/assignments/weather-pinia')"
+        @click="router.push('/assignments/weather-final')"
       />
     </div>
   </div>

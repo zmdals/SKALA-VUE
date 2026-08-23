@@ -8,21 +8,21 @@ import UnitToggler from '@/components/assignments/common/UnitToggler.vue'
     <div class="mb-6 flex items-center justify-between border-b border-zinc-100 pb-4">
       <nav class="flex gap-6">
         <RouterLink
-          to="/assignments/weather-pinia"
+          to="/assignments/weather-final"
           exact-active-class="!text-zinc-900 !border-zinc-900"
           class="border-b-2 border-transparent px-1 pb-2 text-sm font-medium text-zinc-400 transition-colors hover:text-zinc-600"
         >
           날씨 대시보드
         </RouterLink>
         <RouterLink
-          to="/assignments/weather-pinia/compare"
+          to="/assignments/weather-final/compare"
           active-class="!text-zinc-900 !border-zinc-900"
           class="border-b-2 border-transparent px-1 pb-2 text-sm font-medium text-zinc-400 transition-colors hover:text-zinc-600"
         >
           전체 날씨 비교
         </RouterLink>
         <RouterLink
-          to="/assignments/weather-pinia/about"
+          to="/assignments/weather-final/about"
           active-class="!text-zinc-900 !border-zinc-900"
           class="border-b-2 border-transparent px-1 pb-2 text-sm font-medium text-zinc-400 transition-colors hover:text-zinc-600"
         >

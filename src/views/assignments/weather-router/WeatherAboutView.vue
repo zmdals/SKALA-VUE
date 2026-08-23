@@ -34,7 +34,7 @@ const router = useRouter()
         label="대시보드로 이동"
         severity="info"
         class="w-full"
-        @click="router.push('/assignments/weather-pinia')"
+        @click="router.push('/assignments/weather-final')"
       />
     </div>
   </div>

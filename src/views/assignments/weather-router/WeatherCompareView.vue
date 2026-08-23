@@ -75,7 +75,7 @@ const displayTemp = (rawTemp) => {
       severity="secondary"
       text
       class="mt-4 w-full"
-      @click="router.push('/assignments/weather-pinia')"
+      @click="router.push('/assignments/weather-final')"
     />
   </div>
 </template>

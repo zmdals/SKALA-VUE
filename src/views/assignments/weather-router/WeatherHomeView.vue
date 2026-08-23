@@ -13,7 +13,7 @@ const handleSelectCity = (city) => {
 }
 
 const goToDetail = (city) => {
-  router.push('/assignments/weather-pinia/weather/' + city.id)
+  router.push('/assignments/weather-final/weather/' + city.id)
 }
 </script>
 

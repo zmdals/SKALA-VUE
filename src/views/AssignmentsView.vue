@@ -7,7 +7,7 @@
       <RouterLink to="/assignments/weather-composition">2. Composition</RouterLink>
       <RouterLink to="/assignments/weather-component">3. Component</RouterLink>
       <RouterLink to="/assignments/weather-router">4. Router</RouterLink>
-      <RouterLink to="/assignments/weather-pinia">5. Pinia</RouterLink>
+      <RouterLink to="/assignments/weather-final">5. Pinia + Axios + UI Library</RouterLink>
     </nav>
     <RouterView />
   </div>

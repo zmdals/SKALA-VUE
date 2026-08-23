@@ -70,7 +70,7 @@ const router = createRouter({
           ],
         },
         {
-          path: 'weather-pinia',
+          path: 'weather-final',
           component: () => import('@/views/assignments/WeatherViewV5.vue'),
           children: [
             {
