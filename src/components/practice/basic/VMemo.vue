@@ -15,7 +15,7 @@ const age = ref(20)
       <p>나이: {{ age }} (name이 바뀌어야 얘도 갱신됨)</p>
     </div>
     <button @click="name = name === '이순신' ? '홍길동' : '이순신'">
-      1. 이름 변경 (이순신<->홍길동)
+      1. 이름 변경 (이순신 ↔️ 홍길동)
     </button>
     <button @click="age++">2. 나이 한 살 추가 (age++)</button>
   </div>

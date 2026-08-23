@@ -1,6 +1,4 @@
-<script setup>
-import AxiosApi from './AxiosApi.vue'
-</script>
+<script setup></script>
 
 <template>
   <div class="practice-section">

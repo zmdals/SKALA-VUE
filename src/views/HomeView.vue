@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <main class="home">
-    <h1>Practice(실습)</h1>
+    <h1>Practice (실습 코드)</h1>
     <div class="nav-cards">
       <RouterLink to="/practice/basic" class="nav-card">
         <h2>템플릿 문법</h2>
@@ -23,11 +23,12 @@ import { RouterLink } from 'vue-router'
         <p>LifeCycle</p>
       </RouterLink>
     </div>
-    <h1>Assignments(과제)</h1>
+    <br />
+    <h1>Assignments (날씨 앱 과제)</h1>
     <div class="nav-cards">
       <RouterLink to="/assignments" class="nav-card">
         <h2>날씨 앱</h2>
-        <p>Weather Mockup, 등</p>
+        <p>Weather Mockup, Composition, Component, Router, Pinia + Axios + UI library 등</p>
       </RouterLink>
     </div>
   </main>

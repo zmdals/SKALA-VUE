@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import axios from 'axios'
 
 const weatherData = ref(null)
@@ -7,7 +7,7 @@ const isLoading = ref(false)
 
 const handleFetchWeather = async () => {
   isLoading.value = true
-  const API_KEY = '...'
+  const API_KEY = '...' //환경변수에서 추후에 설정.
   const URL = `https://api.openweathermap.org/data/2.5/weather?lat=35.158582&lon=126.804975&appid=${API_KEY}&units=metric&lang=kr`
 
   try {
@@ -23,4 +23,5 @@ const handleFetchWeather = async () => {
     isLoading.value = false
   }
 }
+onMounted(handleFetchWeather())
 </script>
